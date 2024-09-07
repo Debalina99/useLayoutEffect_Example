@@ -5,7 +5,7 @@ import UseLayoutEffect from './useLayoutEffect';
 function App() {
   return (
     <div className="App">
-     <UseLayoutEffect></UseLayoutEffect>
+      <UseLayoutEffect></UseLayoutEffect>
     </div>
   );
 }

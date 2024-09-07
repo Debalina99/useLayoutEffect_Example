@@ -16,7 +16,7 @@ export default function UseLayoutEffect() {
     useLayoutEffect(() => {
         console.log("useLayoutEffect Dependency with values");
     }, [counter])
-    
+
     const clickHandler = () => {
         setCounter((prev) => prev + 1)
     }
